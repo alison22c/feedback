@@ -1,6 +1,9 @@
-function pegarnota(){
-    let nota= localStorage.getItem(nota)
-    let pegarnota=document.querySelector(".paragrafo_nota")
-    paragrafonota.innerHTML=`você selecionou ${nota} de 5`
+function pegarNota() {
+let nota = localStorage.getItem("nota")
+
+let paragrafoNota = document.querySelector(".paragrafo_nota")
+
+paragrafoNota.innerHTML = `Você selecionou ${nota} de 5`
 }
-pegarnota()
+
+pegarNota()
